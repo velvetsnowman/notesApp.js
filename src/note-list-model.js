@@ -1,7 +1,7 @@
 (function(exports) {
 
   function NoteList(){
-    this.array = [new Note("hi"), new Note("hello"), new Note("Goodbye")]
+    this.array = []
   }
 
   NoteList.prototype.getNotes = function(){
