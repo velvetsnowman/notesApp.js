@@ -10,7 +10,7 @@
     list.forEach(function(i) {
       htmlArray.push("<ul><li><div>" + i.text +  "</div></li></ul>")
     });
-    return htmlArray.join();
+    return htmlArray.join("");
   }
 
   exports.NoteListViewer = NoteListViewer;
