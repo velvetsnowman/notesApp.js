@@ -10,7 +10,7 @@
   NoteController.prototype.changeText = function(){
     this.element.innerHTML = this.noteListViewer.viewEachNote()
   }
-
+//lines 14 to 34 is a work in progress
   makeUrlChangeShowAnimalForCurrentPage();
 
   function makeUrlChangeShowAnimalForCurrentPage() {
